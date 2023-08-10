@@ -4,9 +4,9 @@
 # HINT : A LOT OF MOVING ELEMENTS
 
 # compare current element with prevoius element
-# if right hand element is smaller then change places
+# if current element is smaller then previous - change places
 # check again and again, going to the left and change places 
-# until right hand element is NOT smaller and leave it
+# until current hand element is NOT smaller and leave it
 # take next element from bigger loop
 
 
