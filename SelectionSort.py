@@ -1,6 +1,16 @@
 #https://www.youtube.com/watch?v=ee80YmiaSVQ&list=PLliXbzY3XhUSJy3izXH-0ojiT3Uup8xbu&index=2
 #Selection Sort In Python - FelixTechTips
 
+# HINT : FIND AND MOVE
+
+# find a minimum of remaining unsorted part and put it in front
+# first element is current minimum at the begining
+# if we find anything smaller then put it in front of that
+# if nothing is smaller it means first is the smallest element and we're not moving it
+# take next one and check everything after if smaller
+# if found put it before current element
+
+
 def selection_sort(arr):
     for i in range(0,len(arr)-1):
         cur_min_inx = i
