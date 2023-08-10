@@ -12,8 +12,9 @@ def insertion_sort(arr):
 arr1 = [2,6,7,1,12,4,8,9]
 arr2 = [245,36,75,71,1992,44,83,92]
 arr3 = ["x","f","h","l","a","d","c","b"]
-arr3 = ["Hubert","Alina","Weronika","Bartosz","Igor","Wojciech","Celina"]
+arr4 = ["Hubert","Alina","Weronika","Bartosz","Igor","Wojciech","Celina"]
 
 print(insertion_sort(arr1))
 print(insertion_sort(arr2))
 print(insertion_sort(arr3))
+print(insertion_sort(arr4))
